@@ -66,8 +66,6 @@ listofcountries.extend(listofcountries2)
 print(listofcountries) #Now the content of second list of countriess was added at the end of fist list
 #To note, good thing about extend method is that the items added does not necessarily need to be in list. We may add even tuples
 
-
-
 #There is also a zip function that iterates, pairing items in them
 grooms=("Begzod","Shahzod","Dilshod")
 brides=("Shahnoza","Dulfuza","Malika")#there are two tuples
