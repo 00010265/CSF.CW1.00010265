@@ -72,8 +72,6 @@ brides=("Shahnoza","Dulfuza","Malika")#there are two tuples
 q=zip(grooms,brides)#now two tuples are zipped
 print(tuple(q)) #here we can see new tuple printed out
 
-
-
 #there are also an enumerate function that  adds counter to an iterable and returns it as an enumerate object
 laptops = ['hp', 'acer', 'asus'] #there are a list of laptops
 #we can use this little function below to enumarate these laptops
