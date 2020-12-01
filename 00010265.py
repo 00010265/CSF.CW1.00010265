@@ -59,8 +59,6 @@ print("My favorite film is",y)
 
 #>>> ADDITIONS
 
-
-
 #When we want to add other list, then we may use extend method
 listofcountries=["Uzbekistan","Russia"]
 listofcountries2=["Turkmenistan", "Tajikistan"]
