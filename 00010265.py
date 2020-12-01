@@ -38,14 +38,10 @@ print(tuple1[-1])# Printing last item of the tuple
 print(tuple1[:2]) #We set range till 3rd element, not including it
 #I previously mentioned that tuples are immutable, but still there are ways to make some change.
 
-
-
 subjects = ("CFS", "WebTech", "FunPro")
 mylessons1 = list(subjects) #First we change the tuple into list
 mylessons1.append("IMOB") #then append the list
 subjects2 = tuple(mylessons1) #and finally convert the list back to tuple
-
-
 
 #>>> Dictionaries
 """Dictionaries store data values in pairs: keys and values.
