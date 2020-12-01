@@ -53,13 +53,9 @@ myfavorites={
 }
 print(myfavorites)
 
-
-
 #We can access values inside dicts using keys
 y= myfavorites["film"]
 print("My favorite film is",y)
-
-
 
 #>>> ADDITIONS
 
