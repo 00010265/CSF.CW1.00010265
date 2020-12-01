@@ -38,10 +38,14 @@ print(tuple1[-1])# Printing last item of the tuple
 print(tuple1[:2]) #We set range till 3rd element, not including it
 #I previously mentioned that tuples are immutable, but still there are ways to make some change.
 
+
+
 subjects = ("CFS", "WebTech", "FunPro")
 mylessons1 = list(subjects) #First we change the tuple into list
 mylessons1.append("IMOB") #then append the list
 subjects2 = tuple(mylessons1) #and finally convert the list back to tuple
+
+
 
 #>>> Dictionaries
 """Dictionaries store data values in pairs: keys and values.
@@ -53,11 +57,17 @@ myfavorites={
 }
 print(myfavorites)
 
+
+
 #We can access values inside dicts using keys
 y= myfavorites["film"]
 print("My favorite film is",y)
 
+
+
 #>>> ADDITIONS
+
+
 
 #When we want to add other list, then we may use extend method
 listofcountries=["Uzbekistan","Russia"]
@@ -66,11 +76,15 @@ listofcountries.extend(listofcountries2)
 print(listofcountries) #Now the content of second list of countriess was added at the end of fist list
 #To note, good thing about extend method is that the items added does not necessarily need to be in list. We may add even tuples
 
+
+
 #There is also a zip function that iterates, pairing items in them
 grooms=("Begzod","Shahzod","Dilshod")
 brides=("Shahnoza","Dulfuza","Malika")#there are two tuples
 q=zip(grooms,brides)#now two tuples are zipped
 print(tuple(q)) #here we can see new tuple printed out
+
+
 
 #there are also an enumerate function that  adds counter to an iterable and returns it as an enumerate object
 laptops = ['hp', 'acer', 'asus'] #there are a list of laptops
