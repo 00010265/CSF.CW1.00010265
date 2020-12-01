@@ -20,13 +20,11 @@ listofnumbers=["1","2","3","4","5"]
 listofnumbers[1:3]=["20","30"] 
 print(listofnumbers) #here we chaged "2" and "3" to "20" and "30"
 
-
 #Also, we can add one list to another with just + operator
 num1=["1","2","3"]
 num2=["4","5","6"]
 num3=num1+num2
 print(num3)# now the third list contains all items from first and second lists
-
 
 #>>>TUPLES
 """ Tuples are much like lists with slight difference - they are immutable, which mean the methods like appending and inserting will not work
@@ -58,7 +56,6 @@ print(myfavorites)
 #We can access values inside dicts using keys
 y= myfavorites["film"]
 print("My favorite film is",y)
-
 
 #>>> ADDITIONS
 
