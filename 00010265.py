@@ -4,10 +4,12 @@
 # >>>>LISTS
 datatypes=["Lists","Tuples", "Dictionaries"]
 
+
 #Lists are ordered and indexed. We can call items from lists using their indices
 print(datatypes[0]) #this will print out first item in the list which is "Lists"
 print(datatypes[-1]) #negative index is used to count from the end. In this case, the program will print out last item "Dictionaries"
 print(datatypes[1:2]) #Also we may use range to access several items from the list. In this case we call second and third items -"Tuples", "Dictionaries"
+
 
 #Because lists are mutable, we may change their items
 datatypes[1]= "sets" #This operation changes second item of initaial list from "Tupples" to "sets"
